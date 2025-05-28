@@ -1,0 +1,31 @@
+# Axonius IaC Dashboard Exporter - Enhanced Requirements
+# Includes optional packages for improved IaC workflow experience
+# Install with: pip install -r requirements-enhanced.txt
+
+# Core requirement
+requests>=2.28.0,<3.0.0
+
+# Enhanced JSON handling and validation
+jsonschema>=4.0.0,<5.0.0
+
+# YAML support for configuration files and templates
+PyYAML>=6.0,<7.0
+
+# Environment variable management
+python-dotenv>=0.19.0,<1.0.0
+
+# Enhanced CLI experience
+click>=8.0.0,<9.0.0
+rich>=13.0.0,<14.0.0
+
+# Date/time handling improvements
+python-dateutil>=2.8.0,<3.0.0
+
+# Template engine for dashboard templating
+Jinja2>=3.1.0,<4.0.0
+
+# Git integration for IaC workflows
+GitPython>=3.1.0,<4.0.0
+
+# Configuration file parsing
+toml>=0.10.0,<1.0.0
