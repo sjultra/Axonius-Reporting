@@ -51,7 +51,6 @@ class AxoniusIaCExporter:
         """Get list of all available dashboards"""
         print("Fetching dashboard list...")
         
-        # This might need to be adjusted based on actual API endpoint
         # Using the v2 API structure from the search results
         data = self._make_request('v2/dashboards')
         
